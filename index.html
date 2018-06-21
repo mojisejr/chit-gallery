@@ -3,12 +3,12 @@
     <head>
         <!-- Required meta tags -->
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        
+        <link href="assets/nanogallery/dist/css/nanogallery2.min.css" type="text/css" rel="stylesheet">
         <link href='chit-style.css' rel='stylesheet'>
         <title>Chit's Gallery</title>
     </head>
@@ -18,69 +18,32 @@
             <button class='navbar navbar-toggler' type='button' data-toggle='collapse' data-target='#nav-main' aria-controls='nav-main' aira-expanded='false' aira-label='navigation-toggle'><span class='navbar-toggler-icon'></span></button>
             <div class='collapse navbar-collapse' id='nav-main'>
                 <div class='navbar-nav mr-auto'>
-                    <a class='nav-item nav-link' href='collection.html'>Chit's Gallery</a>
-                    <a class='nav-item nav-link' href='#about'>About</a>
+                    <a class='nav-item nav-link' href='#'>Portraits</a>
+                    <a class='nav-item nav-link' href='#'>Landscape</a>
+                    <a class='nav-item nav-link' href='#'>Drone</a>
+                     <a class='nav-item nav-link' href='#'>Blog</a>
+                     <a class='nav-item nav-link' href='#'>About</a>
                 </div>
             </div>
         </nav>
-        <div id='jumbotron-box' class='jumbotron bg-light'>
+        <div id='jumbotron-box' class='jumbotron bg-light rounded-0 my-0'>
             <hr class='my-4'>
             <h1 id='jumbotron--name' class='display-1'>Chit Sooksai</h1>
             <p class='lead'>Bansuan Studio. The Retro's style Studio live in the garden.</p>
             <hr class='my-4'>
         </div>
-        <div id='container-main' class='container'>
-            <div class='card-columns'>
-                <div class='card card-main'>
-                    <img class='card-img-top' src='images/img-1.jpg'>
-                </div>
-                <div class='card card-main'>
-                    <img class='card-img-top' src='images/img-6.jpg'>
-                </div>
-                <div class='card card-main'>
-                    <img class='card-img-top' src='images/img-8.jpg'>
-                </div>
-                <div class='card card-main'>
-                    <img class='card-img-top' src='images/img-2-chit-gun.jpg'>
-                    <div class='card-body'>
-                        <span class='lead'>a MAN with a GUN ... </span>
-                    </div>
-                </div>
-                <div class='card card-main'>
-                    <img class='card-img-top' src='images/img-4.jpg'>
-                </div>
-                <div class='card  card-main'>
-                    <img class='card-img-top' src='images/img-5.jpg'>
-                </div>
-                 <div class='card card-main'>
-                    <img class='card-img-top' src='images/img-7.jpg'>
-                </div>
-                <div class='card card-main'>
-                    <img class='card-img-top' src='images/img-3.jpg'>
-                    <div class='card-body'>
-                        <span class='lead'>No Body Perfect ... </span>
-                    </div>
-                </div>
-                <div class='card  card-main p-3'>
-                    <blockquote class='blockquote mb-0 card-body'>
-                        <p>You don't take a photo graph. you make it.</p>
-                        <footer>
-                            <small>- Ansel Adams</small>
-                        </footer>
-                    </blockquote>
-                </div>
-                <div class='card text-center bg-muted'>
-                    <div class='card-body'>
-                        <p id='about' class='card-text text-muted'><a class='text-muted' href='https://www.facebook.com/chit.tanachit' target="_blank"><strong>Photographer: Chit Sooksai</strong></a></p>
-                    </div>
-                </div>
-            </div>
+        <div id="intro-gallery" class="my-0"></div>
+        <div class='jumbotron text-center bg-light rounded-0'>
+            <div class="lead">contact us.</div>
+            <i id="fb-icon" class="fab fa-facebook-square fa-2x"></i>
+            <i id="twt-icon" class="fab fa-twitter-square fa-2x"></i>
         </div>
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+         <script src="assets/nanogallery/dist/jquery.nanogallery2.min.js"></script>
         <script src='chit-script.js'></script>
   </body>
 </html>

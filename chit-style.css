@@ -18,6 +18,15 @@
     padding-top: 160px;
     padding-bottom: 147px;
 }
+#jumbotron-footer {
+    font-family: 'Roboto Mono', monospace;
+}
+#fb-icon:hover {
+    color: 	#3b5998;
+}
+#twt-icon:hover {
+    color: #08a0e9;
+}
 .card-main:hover {
     cursor: pointer;
     border: none;
